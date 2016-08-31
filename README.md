@@ -9,5 +9,10 @@ Hacked together quickly for a demo at #screens12. Two things to note at the mome
 1. The node server does serve up `index.html` or `viewer.html`
 1. There are three absolute URLS in `index.html`, `viewer.html` and `index.js` that you will need to change.
 
+To execute, run:
 
-This will all be cleaned up into a tidy node process very soon. thanks :) 
+```shell
+node server.js
+```
+
+Remember to change the port if already in use.
